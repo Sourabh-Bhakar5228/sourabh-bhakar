@@ -1,383 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sourabh ---Mern Stack Developer</title>
-    <link rel="stylesheet" href="sourabh.css" />
-    <script src="sourabh.js"></script>
-    <script
-      src="https://kit.fontawesome.com/534c7aa040.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <a href="">
-            <img
-              src="newlogo.png"
-              alt="logo"
-              class="logo"
-              id="logo"
-              onclick="reload"
-            />
-          </a>
 
-          <ul id="sidermenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fas fa-times" onclick="closemenu()"></i>
-          </ul>
-          <i class="fas fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-          <!-- <p><span>M</span>ern <span>S</span>tack <span>D</span>eveloper</p> -->
-          <h1>
-            Hi, My name is <br />
-            <span id="jaat"></span>
-            <div>and I am passionate Mern Stack Developer</div>
-            <span id="element"></span>
-          </h1>
-        </div>
-      </div>
-    </div>
-    <!-- ----------------------------about-------------------------------------------------- -->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="s1.jpg" alt="" />
-          </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About me</h1>
-            <p>
-              <span>A Magician of MERN Stack Skilled</span> Capable of combining
-              front-end and back-end magic to create sophisticated solutions
-              using the MERN stack.
-            </p>
-            <p>
-              <span>Creative</span> An artist with a knack for programming who
-              turns concepts into engaging, user-focused experiences.
-            </p>
-            <p>
-              <span>Driven</span> Inspired by a desire to make ideas a reality,
-              driven to innovate and push boundaries.
-            </p>
-            <p>
-              <span>Versatile</span> Able to handle a variety of tasks and
-              easily transition to new frameworks and technologies.
-            </p>
-            <p>
-              <span>Natural problem-solver</span> who is skilled at breaking
-              down difficult problems and coming up with tasteful solutions.
-            </p>
-            <p>
-              <span>Learner</span> Enthusiastic about gaining knowledge,
-              continuously looking to improve abilities and keep on top of
-              trends
-            </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sourabh ---Mern Stack Developer</title>
+  <link rel="stylesheet" href="sourabh.css" />
+  <script src="sourabh.js"></script>
+  <script src="https://kit.fontawesome.com/534c7aa040.js" crossorigin="anonymous"></script>
+</head>
 
-            <div class="tab-title">
-              <p class="tab-links active-link" onclick="opentab('Skills')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab('Experience')">
-                Experience
-              </p>
-              <p class="tab-links" onclick="opentab('Education')">Education</p>
-            </div>
-            <div class="tab-contant active-tab" id="Skills">
-              <ul>
-                <li><span>React</span><br />Design the website and webapps</li>
-                <li><span>Node js</span><br />Manage the website in backend</li>
-                <li><span>Mongo Db</span><br />Manage the data of client</li>
-                <li><span>AWS /git hub</span><br />Hosting the website</li>
-              </ul>
-            </div>
-            <div class="tab-contant" id="Experience">
-              <ul>
-                <li>
-                  <span>Fresher </span><br />Learning new thing about Mern stack
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contant" id="Education">
-              <ul>
-                <li>
-                  <span>12th pass out</span><br />I am from non-technical
-                  background it will take a little time
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- ----------------------------services-------------------------------------------------- -->
-    <div id="services">
-      <div class="container">
-        <h1 class="sub-title">My services</h1>
-        <div class="services-list">
-          <div>
-            <i class="fa-solid fa-code"></i>
-            <h2>Full-Stack Web Development</h2>
-            <p>
-              As a beginner MERN stack developer, I offer full-stack web
-              development services using the MERN (MongoDB, Express.js,
-              React.js, Node.js) technology stack. I can create responsive and
-              dynamic web applications tailored to your specific requirements.
-            </p>
-            <a href="project.html">learn more</a>
-          </div>
-          <div>
-            <i class="fa-brands fa-react"></i>
-            <h2>Frontend Development</h2>
-            <p>
-              I specialize in building intuitive and user-friendly interfaces
-              using React.js. I can transform your design concepts into
-              interactive web applications, ensuring a seamless user experience
-              across various devices and browsers.
-            </p>
-            <a href="project.html">learn more</a>
-          </div>
-          <div>
-            <i class="fa-brands fa-node"></i>
-            <h2>Backend Development</h2>
-            <p>
-              With expertise in Node.js and Express.js, I can develop robust and
-              scalable backend solutions for your web applications. I focus on
-              creating efficient APIs, handling server-side logic, and
-              integrating databases to ensure the smooth functioning of your
-              application.
-            </p>
-            <a href="project.html">learn more</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-database"></i>
-            <h2>Database Design and Management</h2>
-            <p>
-              I have experience working with MongoDB, a NoSQL database, and can
-              design and manage databases to store, retrieve, and manipulate
-              data effectively. I can optimize database queries and ensure data
-              integrity and security.
-            </p>
-            <a href="project.html">learn more</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-gear"></i>
-            <h2>Debugging and Problem-Solving</h2>
-            <p>
-              Debugging and troubleshooting are essential skills in software
-              development. I can identify and resolve issues in your existing
-              MERN stack applications, ensuring they run smoothly and
-              efficiently.
-            </p>
-            <a href="project.html">learn more</a>
-          </div>
-          <div>
-            <i class="fa-brands fa-github"></i>
-            <h2>Version Control and Collaboration</h2>
-            <p>
-              Proficient in using Git and GitHub, I can collaborate with teams
-              effectively and track changes in the codebase. I can contribute to
-              collaborative projects, follow best practices, and ensure code
-              quality through version control.
-            </p>
-            <a href="project.html">learn more</a>
-          </div>
-          <div>
-            <i class="fa-solid fa-book"></i>
-            <h2>Continuous Learning and Adaptability</h2>
-            <p>
-              As a beginner developer, I am committed to continuous learning and
-              staying updated with the latest trends and technologies in the
-              MERN stack and web development industry. I am adaptable and eager
-              to take on new challenges to enhance my skills further.
-            </p>
-            <a href="project.html">learn more</a>
-          </div>
-          <div>
-            <i class="fa-sharp fa-solid fa-mobile"></i>
-            <h2>Responsive Design and Cross-Browser Compatibility</h2>
-            <p>
-              I prioritize creating responsive web designs that adapt to various
-              screen sizes and devices. Ensuring cross-browser compatibility, I
-              guarantee that your web application functions seamlessly across
-              different web browsers.
-            </p>
-            <a href="project.html">learn more</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- -----------------------------------------------------------portfolio----------------------------------------------------------------------------- -->
-    <div id="portfolio">
-      <div class="container">
-        <h1 class="sub-title">My work</h1>
-        <div class="work-list">
-          <div class="work">
-            <img
-              src="https://static.javatpoint.com/blog/images/how-to-be-a-full-stack-developer.png"
-            />
-            <div class="layer">
-              <h3>Full stack website</h3>
-              <p>
-                A full-stack website refers to a website that has both front-end
-                and back-end components, covering all aspects of web
-                development.
-              </p>
-              <a href="project.html"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img
-              src="https://thumbs.dreamstime.com/b/responsive-web-design-page-promotion-different-display-devices-office-studio-desk-cioncept-graphic-elements-wall-174870257.jpg"
-            />
-            <div class="layer">
-              <h3>Responsive website degine</h3>
-              <p>
-                A responsive website is a website design approach that ensures
-                optimal viewing and interaction across various devices and
-                screen sizes
-              </p>
-              <a href="index.html"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img
-              src="https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg"
-            />
-            <div class="layer">
-              <h3>E-commerce website</h3>
-              <p>
-                E-commerce, short for electronic commerce, has become
-                increasingly popular due to the convenience it offers to both
-                consumers and businesses
-              </p>
-              <a href="project.html"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <a href="project.html" class="btn">See More</a>
-      </div>
-    </div>
-    <!-- ---------------------------------------------------contact section--------------------------------------- -->
-    <div id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p>
-              <i class="fa-solid fa-paper-plane"></i>bhakarsoursbh@gmail.com
-            </p>
-            <p><i class="fa-solid fa-phone"></i>8307802850</p>
-            <div class="social-icon">
-              <a
-                href="https://www.facebook.com/sourabh.bhakar.33?mibextid=ZbWKwL"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-              <a href="https://www.instagram.com/bhakarsourabh/"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a
-                href="https://www.linkedin.com/in/sourabh-bhakar-b3bb3324b/?originalSubdomain=in"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-              <a href="https://t.me/Bhakarsourabh"
-                ><i class="fa-brands fa-telegram"></i
-              ></a>
-              <a href="https://github.com/sourabhbhakar5228?tab=repositories"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-            </div>
-            <a href="Resume.pdf" class="btn btn-2" download>Download CV</a>
-          </div>
-          <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Your Name" required />
-              <input
-                type="email"
-                name="Email"
-                placeholder="Your Email "
-                required
-              />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="Your Message"
-              ></textarea>
-              <button type="submit" class="btn btn-2">Submit</button>
-            </form>
-            <span id="msg"></span>
-          </div>
-        </div>
-      </div>
-      <div class="copyright">
-        <p>
-          Copyright © Sourabh. Made by <i class="fa-solid fa-heart"></i> Sourabh
-          Bhakar
-        </p>
-      </div>
-    </div>
-  </body>
-  <script>
-    // ------------------------------------------------google sheet -----------------------------------
-    const scriptURL =
-      "https://script.google.com/macros/s/AKfycbykt4avmGJxRdVvzC46BRvpmFMYT5OjKZjjOQTQ4RY8ft5uHCSQOTykpt5dRcJ88xuuuA/exec";
-    const form = document.forms["submit-to-google-sheet"];
-    const msg = document.getElementById("msg");
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <a href="">
+          <img src="newlogo.png" alt="logo" class="logo" id="logo" onclick="reload" />
+        </a>
 
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      fetch(scriptURL, { method: "POST", body: new FormData(form) })
-        .then((response) => {
-          msg.innerHTML = "Your Enquiry has been submitted";
-          setTimeout(function () {
-            msg.innerHTML = "";
-          }, 7000);
-          form.reset();
-        })
-        .catch((error) => console.error("Error!", error.message));
+        <ul id="sidermenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="left"><img src="sourabhjaat.jpg" alt=""></div>
+      <div class="header-text">
+        <!-- <p><span>M</span>ern <span>S</span>tack <span>D</span>eveloper</p> -->
+        <h1>
+          Hi, My name is <br />
+          <span id="jaat"></span>
+          <div>and I am passionate <br> Mern Stack Developer</div>
+          <span id="element"></span>
+        </h1>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------------about-------------------------------------------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="s1.jpg" alt="" />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>
+            <span>A Magician of MERN Stack Skilled</span> Capable of combining
+            front-end and back-end magic to create sophisticated solutions
+            using the MERN stack.
+          </p>
+          <p>
+            <span>Creative</span> An artist with a knack for programming who
+            turns concepts into engaging, user-focused experiences.
+          </p>
+          <p>
+            <span>Driven</span> Inspired by a desire to make ideas a reality,
+            driven to innovate and push boundaries.
+          </p>
+          <p>
+            <span>Versatile</span> Able to handle a variety of tasks and
+            easily transition to new frameworks and technologies.
+          </p>
+          <p>
+            <span>Natural problem-solver</span> who is skilled at breaking
+            down difficult problems and coming up with tasteful solutions.
+          </p>
+          <p>
+            <span>Learner</span> Enthusiastic about gaining knowledge,
+            continuously looking to improve abilities and keep on top of
+            trends
+          </p>
+
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('Skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('Experience')">
+              Experience
+            </p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tab-contant active-tab" id="Skills">
+            <ul>
+              <li><span>React</span><br />Design the website and webapps</li>
+              <li><span>Node js</span><br />Manage the website in backend</li>
+              <li><span>Mongo Db</span><br />Manage the data of client</li>
+              <li><span>AWS /git hub</span><br />Hosting the website</li>
+            </ul>
+          </div>
+          <div class="tab-contant" id="Experience">
+            <ul>
+              <li>
+                <span>Fresher </span><br />Learning new thing about Mern stack
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contant" id="Education">
+            <ul>
+              <li>
+                <span>12th pass out</span><br />I am from non-technical
+                background it will take a little time
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------------services-------------------------------------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Full-Stack Web Development</h2>
+          <p>
+            As a beginner MERN stack developer, I offer full-stack web
+            development services using the MERN (MongoDB, Express.js,
+            React.js, Node.js) technology stack. I can create responsive and
+            dynamic web applications tailored to your specific requirements.
+          </p>
+          <a href="project.html">learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-react"></i>
+          <h2>Frontend Development</h2>
+          <p>
+            I specialize in building intuitive and user-friendly interfaces
+            using React.js. I can transform your design concepts into
+            interactive web applications, ensuring a seamless user experience
+            across various devices and browsers.
+          </p>
+          <a href="project.html">learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-node"></i>
+          <h2>Backend Development</h2>
+          <p>
+            With expertise in Node.js and Express.js, I can develop robust and
+            scalable backend solutions for your web applications. I focus on
+            creating efficient APIs, handling server-side logic, and
+            integrating databases to ensure the smooth functioning of your
+            application.
+          </p>
+          <a href="project.html">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-database"></i>
+          <h2>Database Design and Management</h2>
+          <p>
+            I have experience working with MongoDB, a NoSQL database, and can
+            design and manage databases to store, retrieve, and manipulate
+            data effectively. I can optimize database queries and ensure data
+            integrity and security.
+          </p>
+          <a href="project.html">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-gear"></i>
+          <h2>Debugging and Problem-Solving</h2>
+          <p>
+            Debugging and troubleshooting are essential skills in software
+            development. I can identify and resolve issues in your existing
+            MERN stack applications, ensuring they run smoothly and
+            efficiently.
+          </p>
+          <a href="project.html">learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-github"></i>
+          <h2>Version Control and Collaboration</h2>
+          <p>
+            Proficient in using Git and GitHub, I can collaborate with teams
+            effectively and track changes in the codebase. I can contribute to
+            collaborative projects, follow best practices, and ensure code
+            quality through version control.
+          </p>
+          <a href="project.html">learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-book"></i>
+          <h2>Continuous Learning and Adaptability</h2>
+          <p>
+            As a beginner developer, I am committed to continuous learning and
+            staying updated with the latest trends and technologies in the
+            MERN stack and web development industry. I am adaptable and eager
+            to take on new challenges to enhance my skills further.
+          </p>
+          <a href="project.html">learn more</a>
+        </div>
+        <div>
+          <i class="fa-sharp fa-solid fa-mobile"></i>
+          <h2>Responsive Design and Cross-Browser Compatibility</h2>
+          <p>
+            I prioritize creating responsive web designs that adapt to various
+            screen sizes and devices. Ensuring cross-browser compatibility, I
+            guarantee that your web application functions seamlessly across
+            different web browsers.
+          </p>
+          <a href="project.html">learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------------------------------------------------portfolio----------------------------------------------------------------------------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="https://static.javatpoint.com/blog/images/how-to-be-a-full-stack-developer.png" />
+          <div class="layer">
+            <h3>Full stack website</h3>
+            <p>
+              A full-stack website refers to a website that has both front-end
+              and back-end components, covering all aspects of web
+              development.
+            </p>
+            <a href="project.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img
+            src="https://thumbs.dreamstime.com/b/responsive-web-design-page-promotion-different-display-devices-office-studio-desk-cioncept-graphic-elements-wall-174870257.jpg" />
+          <div class="layer">
+            <h3>Responsive website degine</h3>
+            <p>
+              A responsive website is a website design approach that ensures
+              optimal viewing and interaction across various devices and
+              screen sizes
+            </p>
+            <a href="index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img
+            src="https://img.freepik.com/free-photo/showing-cart-trolley-shopping-online-sign-graphic_53876-133967.jpg" />
+          <div class="layer">
+            <h3>E-commerce website</h3>
+            <p>
+              E-commerce, short for electronic commerce, has become
+              increasingly popular due to the convenience it offers to both
+              consumers and businesses
+            </p>
+            <a href="project.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="project.html" class="btn">See More</a>
+    </div>
+  </div>
+  <!-- ---------------------------------------------------contact section--------------------------------------- -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p>
+            <i class="fa-solid fa-paper-plane"></i>bhakarsoursbh@gmail.com
+          </p>
+          <p><i class="fa-solid fa-phone"></i>8307802850</p>
+          <div class="social-icon">
+            <a href="https://www.facebook.com/sourabh.bhakar.33?mibextid=ZbWKwL"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/bhakarsourabh/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sourabh-bhakar-b3bb3324b/?originalSubdomain=in"><i
+                class="fa-brands fa-linkedin"></i></a>
+            <a href="https://t.me/Bhakarsourabh"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://github.com/sourabhbhakar5228?tab=repositories"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="Resume.pdf" class="btn btn-2" download>Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input type="email" name="Email" placeholder="Your Email " required />
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn-2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright © Sourabh. Made by <i class="fa-solid fa-heart"></i> Sourabh
+        Bhakar
+      </p>
+    </div>
+  </div>
+</body>
+<script>
+  // ------------------------------------------------google sheet -----------------------------------
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbykt4avmGJxRdVvzC46BRvpmFMYT5OjKZjjOQTQ4RY8ft5uHCSQOTykpt5dRcJ88xuuuA/exec";
+  const form = document.forms["submit-to-google-sheet"];
+  const msg = document.getElementById("msg");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    fetch(scriptURL, { method: "POST", body: new FormData(form) })
+      .then((response) => {
+        msg.innerHTML = "Your Enquiry has been submitted";
+        setTimeout(function () {
+          msg.innerHTML = "";
+        }, 7000);
+        form.reset();
+      })
+      .catch((error) => console.error("Error!", error.message));
+  });
+</script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+  var typed = new Typed("#element", {
+    strings: [
+      " Javascript",
+      "React JS",
+      "&amp; NodeJS",
+      "ExpressJS",
+      "MongoDB",
+      "Git &amp; Github.",
+    ],
+    typeSpeed: 100,
+    loop: true,
+  });
+</script>
+<script>
+  var typed = new Typed("#jaat", {
+    strings: ["Sourabh", "Bhakar"],
+    typeSpeed: 100,
+    loop: true,
+  });
+
+  // for logo
+  document
+    .getElementsById("logo")
+    .addEventListener("click", function (reload) {
+      location.reload(reload);
     });
-  </script>
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  <script>
-    var typed = new Typed("#element", {
-      strings: [
-        " Javascript",
-        "React JS",
-        "&amp; NodeJS",
-        "ExpressJS",
-        "MongoDB",
-        "Git &amp; Github.",
-      ],
-      typeSpeed: 100,
-      loop: true,
-    });
-  </script>
-  <script>
-    var typed = new Typed("#jaat", {
-      strings: ["Sourabh", "Bhakar"],
-      typeSpeed: 100,
-      loop: true,
-    });
+</script>
 
-    // for logo
-    document
-      .getElementsById("logo")
-      .addEventListener("click", function (reload) {
-        location.reload(reload);
-      });
-  </script>
 </html>
